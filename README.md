@@ -1,6 +1,6 @@
 # Django Blog
 
-This project is a simple articles/categories blog developed using **Visual Studio Code**, use **Django**, **JQuery** and **BootStrap**. The project has been developped using the two web design patters **REST** and **MVC**. The **REST** classes are in the file *views.py*. The controllers have been implemented in **JQuery**, the views with **BootStrap** and the model with **Django**. The **AJAX** implementation method has also been used for not loading a new page at each request.
+This project is a simple articles/categories blog developed with **Visual Studio Code**, using **Django**, **JQuery** and **BootStrap**. The project has been developped using the two web design patters **REST** and **MVC**. The **REST** classes are in the file *views.py*. The controllers have been implemented in **JQuery**, the views with **BootStrap** and the model with **Django**. The **AJAX** implementation method has also been used for not loading a new page at each request.
 
 ## Dependencies
 
