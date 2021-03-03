@@ -1,0 +1,58 @@
+input:placeholder-shown {
+    font-style: italic;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden
+}
+
+.blog-title {
+    transform: translatex(-70%);
+    font-size: 30px;
+}
+
+.article-block {
+    height: 50vh;
+}
+
+.date-size {
+    font-size: 14px;
+}
+
+.full-screen {
+    height: 100vh;
+}
+
+.artice-card {
+    max-width: 30%;
+}
+
+.card-title-article{
+    display: -webkit-box; 
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-text-article {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient:
+    vertical;overflow: hidden;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+}
+
+.card-width {
+    max-width: 33.4%;
+}
+
+.last-card-width {
+    max-width: 30.67%;
+}

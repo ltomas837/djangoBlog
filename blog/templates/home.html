@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block javascript %}
+    {% load static %}
+    <script src="{% static 'js/home_controller.js' %}"></script>
+{% endblock javascript %}
+
+{% block content %}
+
+    <div class="input-group my-5 mx-auto w-50">
+
+        <input type="text" class="form-control" name="search" placeholder="Search an article...">
+
+        <div class="input-group-prepend">
+            <button class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown" name="currentCategory">Any category</button>
+            <div class="dropdown-menu scrollable-menu" id="categories">
+                <span class="dropdown-item" name="category">Any category</span>
+                <div role="separator" class="dropdown-divider"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mx-5 mb-4 article-block" name="articles"></div>
+
+    <div class="text-center" name="pages"></div>
+ 
+{% endblock content %}
