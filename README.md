@@ -1,6 +1,6 @@
 # Django Blog
 
-This project is a simple articles/categories blog developed using **Visual Studio Code**, use **Django**, **JQuery** and **BootStrap**. The project has been developped using the two web design patters **REST** and **MVC**. The **REST** classes are in the file *views.py*. The controllers have been implemented in **JQuery**, the views with **BootStrap** and the model with **Django**.        
+This project is a simple articles/categories blog developed using **Visual Studio Code**, use **Django**, **JQuery** and **BootStrap**. The project has been developped using the two web design patters **REST** and **MVC**. The **REST** classes are in the file *views.py*. The controllers have been implemented in **JQuery**, the views with **BootStrap** and the model with **Django**. The **AJAX** implementation method has also been used for not loading a new page at each request.
 
 ## Dependencies
 
@@ -28,4 +28,9 @@ pip3 install django
 
 ## Usage
 
-The 
+In order to run the project, simply run the *manage.py* file.
+```bash
+python3 manage.py
+```
+
+You will then be able to connect to *localhost:8000*. The articles/categories and the links between the categories and articles can be added using the admin login page. An admin user is already created with the credientials *login=admin* and *password=admin*. On the home page, a search is available on the categories, and on any text pattern in the article. They are sorted from the most recent to the latest. A page indexing has been done to facilitate the navigation. The article details can be reached click on the button *Read more*.
